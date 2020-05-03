@@ -171,6 +171,40 @@ a {
     font-size: 30px;
 }
 
+#footer {
+    background-color: #f2f2f2;
+    border-top: 1px solid #dadada;
+    position: absolute;
+    width: 100%;
+}
+
+#upper-footer {
+    display: flex;
+    margin: 10px 163px;
+}
+
+#lower-footer {
+    display: flex;
+    margin: 10px 163px;
+    width: 350px;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#lower-footer a {
+    color: gray;
+}
+
+#lower-footer a:hover {
+    color: black;
+}
+
+#upper-footer i {
+    margin-right: 10px;
+    color: gray;
+}
+
 #next-pages {
     margin-left: 10px;
 }
