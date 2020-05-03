@@ -147,6 +147,45 @@ a {
     line-height: 30px;
 }
 
+.numbered-link {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.numbered-link a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60px;
+    color: #0087ff;;
+}
+
+.numbered-link a:hover p{
+    text-decoration: underline;
+}
+
+.numbered-link h3 {
+    font-size: 30px;
+}
+
+#next-pages {
+    margin-left: 10px;
+}
+
+#next-pages i {
+    margin-top: 6px;
+}
+
+#other-pages {
+    display: flex;
+    margin: 40px;
+    justify-content: center;
+    width: 700px;
+}
+
 #related-links {
     margin-left: 10px;
 }
