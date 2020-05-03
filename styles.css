@@ -1,3 +1,7 @@
+html {
+    font-family: sans-serif;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -23,6 +27,77 @@ a {
     margin-left: 5px;
 }
 
+.outer-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 5px;
+    padding-right: 20px;
+}
+
+.outer-link {
+    margin-left: 20px;
+    color: #a2a2a2;
+}
+
+.outer-link:hover {
+    text-decoration: underline;
+}
+
+.webpage-box {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 18px;
+}
+
+.webpage-box-content {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+.webpage-sum {
+    font-size: 15px;
+    color: #5e5d5d;
+    line-height: 20px;
+}
+
+.webpage-area {
+    margin: 40px 10px;
+}
+
+.webpage-header p,h2{
+    margin-bottom: 7px;
+}
+
+.webpage-header p {
+    font-size: 12px;
+    color: gray;
+}
+
+.webpage-header h2 {
+    font-size: 20px;
+    color: #0000a0;
+}
+
+.webpage-header h2:hover {
+    text-decoration: underline;
+}
+
+.user-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.user-button:hover {
+    background-color: #c4c4c4;
+}
+
 #active-filter {
     border-bottom: 3px solid #038ddf;
 }
@@ -31,6 +106,16 @@ a {
     color: #038ddf;
 }
 
+#website-list {
+    margin-left: 150px;
+    width: 700px;
+}
+
+#search-results {
+    font-size: 15px;
+    color: #8f8f8f;
+    margin: 15px 10px
+}
 
 #upper-nav {
     display: flex;
@@ -64,6 +149,10 @@ a {
     margin-left: 20px;
 }
 
+#search-bar:hover {
+    box-shadow: 0px 0px 5px 1px #d7d7d7;
+}
+
 #search-query {
     border: none;
     width: 100%;
@@ -74,7 +163,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100px;
+    width: 125px;
     margin-right: 20px;
 }
 
