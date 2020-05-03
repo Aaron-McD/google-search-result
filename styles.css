@@ -85,6 +85,32 @@ a {
     text-decoration: underline;
 }
 
+.list {
+    border: 1px solid #d7d7d7;
+    border-radius: 7px;
+}
+
+.list-header {
+    font-size: 22px;
+    padding: 17px;
+}
+
+.list-feedback {
+    text-align: end;
+    width: 90%;
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.list-drop-down {
+    padding: 17px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #d7d7d7;
+}
+
 .user-button {
     display: flex;
     align-items: center;
@@ -96,6 +122,37 @@ a {
 
 .user-button:hover {
     background-color: #c4c4c4;
+}
+
+.list-drop-down i {
+    color: white;
+    background: #999797;
+    border-radius: 50%;
+}
+
+.link-lists {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.link-list {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-list a {
+    color: #08248f;
+    line-height: 30px;
+}
+
+#related-links {
+    margin-left: 10px;
+}
+
+#related-links h2 {
+    font-size: 20px;
 }
 
 #active-filter {
